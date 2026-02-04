@@ -1,0 +1,90 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block center %}
+
+<div class="container py-4" style="max-width: 850px;">
+
+    <form method="post" enctype="multipart/form-data" class="card shadow-sm border-0 bg-white">
+
+        <div class="card-header bg-success text-white rounded-top">
+            <h4 class="mb-0">
+                <i class="fas fa-user-tie"></i> {{ title }}
+            </h4>
+        </div>
+
+        <div class="card-body">
+
+            {% csrf_token %}
+
+            {% if form.errors %}
+                <div class="alert alert-danger border-danger-subtle">
+                    <strong>Erros encontrados:</strong>
+                    <ul class="mt-2 mb-0">
+                        {% for field in form %}
+                            {% for error in field.errors %}
+                                <li><b>{{ field.label }}:</b> {{ error }}</li>
+                            {% endfor %}
+                        {% endfor %}
+                        {% for error in form.non_field_errors %}
+                            <li>{{ error }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            {% endif %}
+
+            <h5 class="text-success border-bottom pb-2 mb-4">Informações do Técnico</h5>
+
+            <div class="row g-4">
+
+                <div class="col-md-8">
+                    <label class="form-label">Nome do Técnico:</label>
+                    {{ form.nome_tecnico }}
+                </div>
+
+                <div class="col-md-4">
+                    <label class="form-label">Especialidade:</label>
+                    {{ form.especialidade }}
+                </div>
+
+                <div class="col-md-6">
+                    <label class="form-label">Telefone:</label>
+                    {{ form.telefone }}
+                </div>
+
+                <div class="col-md-6">
+                    <label class="form-label">CPF:</label>
+                    {{ form.cpf }}
+                </div>
+
+                <div class="col-md-6">
+                    <label class="form-label">Email:</label>
+                    {{ form.email }}
+                </div>
+
+                <div class="col-md-6">
+                    <label class="form-label">Data de nascimento:</label>
+                    {{ form.data_nascimento }}
+                </div>
+
+            </div>
+
+            <div class="d-flex justify-content-end gap-3 mt-4 pt-3 border-top">
+
+                <button class="btn btn-success d-flex align-items-center gap-2 px-4" type="submit">
+                    <i class="bi bi-floppy"></i>
+                    Salvar
+                </button>
+
+                <a href="{% url 'list_tecs' %}" class="btn btn-danger d-flex align-items-center gap-2 px-4">
+                    <i class="bi bi-x-lg"></i>
+                    Cancelar
+                </a>
+            </div>
+
+        </div>
+    </form>
+
+</div>
+
+{% endblock %}

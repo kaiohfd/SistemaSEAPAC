@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+
+{% block center %}
+<h1 class='title'>Lista de projetos</h1>
+
+<div class="controls-section">
+    <div class="control-group">
+        <i class="fas fa-filter"></i>
+        <label for="projectStatusFilter">Status do projeto</label>
+        <form method="GET" class="filter-form">
+            <select id="projectStatusFilter" class="control-select" name="status" onchange="this.form.submit()">
+                <option value="">Todos os status</option>
+                <option value="em-execucao" {% if status == 'em-execucao' %}selected{% endif %}>Em Execução</option>
+                <option value="concluido" {% if status == 'concluido' %}selected{% endif %}>Concluído</option>
+                <option value="planejamento" {% if status == 'planejamento' %}selected{% endif %}>Em Planejamento</option>
+            </select>
+        </form>
+    </div>
+
+    <div class="search-group">
+        <i class="fas fa-search"></i>
+        <form action="" method="GET" class="search-form">
+            <input type="search" id="searchInput" name="q" value="{{ query|default:'' }}" placeholder="Buscar por nome..." class="search-input">
+        </form>
+    </div>
+
+    {% if user.is_administrador %}
+    <a href="{% url 'create_projects' %}" class="btn btn-primary" id="addProjectBtn">
+        <i class="fas fa-plus"></i> Novo Projeto
+    </a>
+    {% endif %}
+</div>
+
+<div class="container-fluid px-md-3 px-0">
+    {% if projects %}
+        <div class="row g-4">
+            {% for project in projects %}
+                {% include "partials/cards/project_card.html" %}
+            {% endfor %}
+        </div>
+        <br>
+        {% include "partials/pagination.html" %}
+    {% else %}
+        <p class="text-center text-muted mt-4">Nenhum projeto encontrado.</p>
+    {% endif %}
+</div>
+{% endblock %}

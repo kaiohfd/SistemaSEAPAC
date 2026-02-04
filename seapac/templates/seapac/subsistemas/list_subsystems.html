@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{% block center %}
+
+<div class="flow-header">
+    <div class="flow-header-main">
+        <h1 class='title'>{% block title %}{{ title }}{% endblock title %}</h1>
+    </div>
+</div>
+
+<div class="controls-section">
+    <div class="search-group">
+        <i class="fas fa-search"></i>
+        <form action="" method="GET" class="search-form">
+            <input type="search" id="searchInput" name="q" value="{{ query|default:'' }}" placeholder="Buscar por nome..." class="search-input">
+        </form>
+    </div>
+</div>
+
+<div class="families-section">
+    <div class="section-header">
+        <h2>Subsistemas Cadastrados</h2>
+        <button class="btn btn-primary" onclick="redirect('{% url 'create_subsystems' %}')">
+            <i class="fas fa-plus"></i>
+            Adicionar
+        </button>
+    </div>
+
+    <div class="families-grid">
+        {% if subsistemas %}
+            {% for subsistema in subsistemas %}
+                {% include "partials/cards/subsystem_card.html" %}
+            {% endfor %}
+        {% else %}
+            <div class="no-families">
+                <i class="fas fa-search"></i>
+                <h3>Nenhum subsistema encontrado</h3>
+                <p>Tente ajustar os filtros de pesquisa.</p>
+            </div>
+        {% endif %}
+    </div>
+</div>
+
+{% endblock %}

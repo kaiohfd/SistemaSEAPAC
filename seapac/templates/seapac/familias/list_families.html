@@ -1,0 +1,114 @@
+{% extends 'base.html' %}
+
+{% block center %}
+
+<h1 class='title'>{% block title %}{{ title }}{% endblock title %}</h1>
+<div class="controls-section">
+    <form method="GET" class="filter-form" style="display: flex; flex-wrap: wrap; gap: 15px; align-items: center;">
+        <div class="control-group">
+            <i class="fas fa-filter"></i>
+            <label for="levelFilter">Nível</label>
+            <select id="levelFilter" class="control-select" name="nivel">
+                <option value="">Todos os níveis</option>
+                <option value="1" {% if nivel_selecionado == '1' %}selected{% endif %}>Inicial</option>
+                <option value="2" {% if nivel_selecionado == '2' %}selected{% endif %}>Intermediário</option>
+                <option value="3" {% if nivel_selecionado == '3' %}selected{% endif %}>Avançado</option>
+            </select>
+        </div>
+
+        <div class="control-group">
+            <i class="fas fa-filter"></i>
+            <label for="subsystemFilter">Subsistema</label>
+            <select id="subsystemFilter" class="control-select" name="subsystem">
+                <option value="">Todos os subsistemas</option>
+                {% for subsystem in subsystems %}
+                    <option value="{{ subsystem.nome_subsistema }}" 
+                            {% if subsystem_selected == subsystem.nome_subsistema %}selected{% endif %}>
+                        {{ subsystem.nome_subsistema }}
+                    </option>
+                {% endfor %}
+            </select>
+        </div>
+
+        <div class="search-group">
+            <i class="fas fa-search"></i>
+            <input type="search" id="searchInput" name="q" value="{{ query|default:'' }}" placeholder="Buscar por nome..." class="search-input">
+        </div>
+
+        <button type="submit" class="btn btn-success">Aplicar filtros</button>
+        <a href="{% url 'list_families' %}" class="btn btn-secondary">Limpar</a>
+    </form>
+</div>
+<div class="container-fluid px-md-3 px-0">
+    {% if families %}
+        <div class="row g-2">
+            {% for family in families %}
+                <div class="col-md-6 mb-2 cards-list" data-id="{{ family.id }}">
+                    {% include "partials/cards/family_card.html" %}
+                </div>
+            {% endfor %}
+        </div>
+
+        {% if page_obj.has_other_pages %}
+            {% with query_string="&nivel="|add:nivel_selecionado|add:"&subsystem="|add:subsystem_selected|add:"&q="|add:query %}
+            <nav aria-label="Navegação de páginas">
+                <ul class="pagination justify-content-center"> 
+                    
+                    {% if page_obj.has_previous %}
+                        <li class="page-item"> 
+                            <a class="page-link" 
+                            href="?page={{ page_obj.previous_page_number }}{{ query_string }}"
+                            aria-label="Anterior">
+                                &laquo; Anterior
+                            </a>
+                        </li>
+                    {% else %}
+                        <li class="page-item disabled"> 
+                            <span class="page-link" aria-hidden="true">&laquo; Anterior</span>
+                        </li>
+                    {% endif %}
+
+                    {% for num in page_obj.paginator.page_range %}
+                        <li class="page-item {% if page_obj.number == num %}active{% endif %}">
+                            {% if page_obj.number == num %}
+                                <span class="page-link">{{ num }}</span> 
+                            {% else %}
+                                <a class="page-link"
+                                href="?page={{ num }}{{ query_string }}">
+                                {{ num }}
+                                </a>
+                            {% endif %}
+                        </li>
+                    {% endfor %}
+
+                    {% if page_obj.has_next %}
+                        <li class="page-item">
+                            <a class="page-link"
+                            href="?page={{ page_obj.next_page_number }}{{ query_string }}"
+                            aria-label="Próxima">
+                                Próxima &raquo;
+                            </a>
+                        </li>
+                    {% else %}
+                        <li class="page-item disabled">
+                            <span class="page-link" aria-hidden="true">Próxima &raquo;</span>
+                        </li>
+                    {% endif %}
+                </ul>
+
+                <p class="text-muted text-center mt-2">
+                    Mostrando {{ page_obj.start_index }}–{{ page_obj.end_index }}
+                    de {{ page_obj.paginator.count }} {{ objeto }}.
+                </p>
+            </nav>
+            {% endwith %}
+        {% endif %}
+    {% else %}
+        <div class="no-families">
+            <i class="fas fa-search"></i>
+            <h3>Nenhuma família encontrada</h3>
+            <p>Tente ajustar os filtros de pesquisa.</p>
+        </div>
+    {% endif %}
+</div>
+{% endblock %}

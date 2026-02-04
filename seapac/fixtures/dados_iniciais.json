@@ -1,0 +1,1920 @@
+[
+  {
+    "model": "seapac.municipality",
+    "pk": 1,
+    "fields": {
+      "nome": "Acari"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 2,
+    "fields": {
+      "nome": "Afonso Bezerra"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 3,
+    "fields": {
+      "nome": "Água Nova"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 4,
+    "fields": {
+      "nome": "Alexandria"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 5,
+    "fields": {
+      "nome": "Almino Afonso"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 6,
+    "fields": {
+      "nome": "Alto do Rodrigues"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 7,
+    "fields": {
+      "nome": "Angicos"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 8,
+    "fields": {
+      "nome": "Antônio Martins"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 9,
+    "fields": {
+      "nome": "Apodi"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 10,
+    "fields": {
+      "nome": "Areia Branca"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 11,
+    "fields": {
+      "nome": "Ares"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 12,
+    "fields": {
+      "nome": "Assú"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 13,
+    "fields": {
+      "nome": "Baía Formoso"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 14,
+    "fields": {
+      "nome": "Baraúna"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 15,
+    "fields": {
+      "nome": "Barcelona"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 16,
+    "fields": {
+      "nome": "Bento Fernandes"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 17,
+    "fields": {
+      "nome": "Boa Saúde"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 18,
+    "fields": {
+      "nome": "Bodó"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 19,
+    "fields": {
+      "nome": "Bom Jesus"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 20,
+    "fields": {
+      "nome": "Brejinho"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 21,
+    "fields": {
+      "nome": "Caiçara do Norte"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 22,
+    "fields": {
+      "nome": "Caiçara Rio do Vento"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 23,
+    "fields": {
+      "nome": "Caicó"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 24,
+    "fields": {
+      "nome": "Campo Grande"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 25,
+    "fields": {
+      "nome": "Campo Redondo"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 26,
+    "fields": {
+      "nome": "Canguaretama"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 27,
+    "fields": {
+      "nome": "Caraúbas"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 28,
+    "fields": {
+      "nome": "Carnaúba dos Dantas"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 29,
+    "fields": {
+      "nome": "Carnaubais"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 30,
+    "fields": {
+      "nome": "Ceará-mirim"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 31,
+    "fields": {
+      "nome": "Cel Ezequiel"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 32,
+    "fields": {
+      "nome": "Cel João Pessoa"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 33,
+    "fields": {
+      "nome": "Cerro Cora"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 34,
+    "fields": {
+      "nome": "Cruzeta"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 35,
+    "fields": {
+      "nome": "Currais Novos"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 36,
+    "fields": {
+      "nome": "Doutor Severiano"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 37,
+    "fields": {
+      "nome": "Encanto"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 38,
+    "fields": {
+      "nome": "Equador"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 39,
+    "fields": {
+      "nome": "Espírito Santo"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 40,
+    "fields": {
+      "nome": "Extremoz"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 41,
+    "fields": {
+      "nome": "Felipe Guerra"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 42,
+    "fields": {
+      "nome": "Fernando Pedroza"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 43,
+    "fields": {
+      "nome": "Florania"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 44,
+    "fields": {
+      "nome": "Francisco Dantas"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 45,
+    "fields": {
+      "nome": "Frutuoso Gomes"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 46,
+    "fields": {
+      "nome": "Galinhos"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 47,
+    "fields": {
+      "nome": "Goianinha"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 48,
+    "fields": {
+      "nome": "Gov Dix Sept Rosado"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 49,
+    "fields": {
+      "nome": "Grossos"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 50,
+    "fields": {
+      "nome": "Guamaré"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 51,
+    "fields": {
+      "nome": "Ielmo Marinho"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 52,
+    "fields": {
+      "nome": "Ipanguaçu"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 53,
+    "fields": {
+      "nome": "Ipueira"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 54,
+    "fields": {
+      "nome": "Itajá"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 55,
+    "fields": {
+      "nome": "Itaú"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 56,
+    "fields": {
+      "nome": "Jaçanã"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 57,
+    "fields": {
+      "nome": "Jandaíra"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 58,
+    "fields": {
+      "nome": "Janduís"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 59,
+    "fields": {
+      "nome": "Japi"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 60,
+    "fields": {
+      "nome": "Jardim de Angicos"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 61,
+    "fields": {
+      "nome": "Jardim de Piranhas"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 62,
+    "fields": {
+      "nome": "Jardim do Seridó"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 63,
+    "fields": {
+      "nome": "João Câmara"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 64,
+    "fields": {
+      "nome": "João Dias"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 65,
+    "fields": {
+      "nome": "José da Penha"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 66,
+    "fields": {
+      "nome": "Jucurutu"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 67,
+    "fields": {
+      "nome": "Jundia"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 68,
+    "fields": {
+      "nome": "Lagoa d'Anta"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 69,
+    "fields": {
+      "nome": "Lagoa de Pedras"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 70,
+    "fields": {
+      "nome": "Lagoa de Velhos"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 71,
+    "fields": {
+      "nome": "Lagoa Nova"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 72,
+    "fields": {
+      "nome": "Lagoa Salgada"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 73,
+    "fields": {
+      "nome": "Lajes"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 74,
+    "fields": {
+      "nome": "Lajes Pintada"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 75,
+    "fields": {
+      "nome": "Lucrécia"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 76,
+    "fields": {
+      "nome": "Luís Gomes"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 77,
+    "fields": {
+      "nome": "Macaíba"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 78,
+    "fields": {
+      "nome": "Macau"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 79,
+    "fields": {
+      "nome": "Major Sales"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 80,
+    "fields": {
+      "nome": "Marcelino Vieira"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 81,
+    "fields": {
+      "nome": "Martins"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 82,
+    "fields": {
+      "nome": "Maxaranguape"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 83,
+    "fields": {
+      "nome": "Messias Targino"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 84,
+    "fields": {
+      "nome": "Montanhas"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 85,
+    "fields": {
+      "nome": "Monte Alegre"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 86,
+    "fields": {
+      "nome": "Monte das Gameleiras"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 87,
+    "fields": {
+      "nome": "Mossoró"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 88,
+    "fields": {
+      "nome": "Natal"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 89,
+    "fields": {
+      "nome": "Nísia Floresta"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 90,
+    "fields": {
+      "nome": "Nova Cruz"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 91,
+    "fields": {
+      "nome": "Olho d'Água dos Borg"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 92,
+    "fields": {
+      "nome": "Ouro Branco"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 93,
+    "fields": {
+      "nome": "Paraná"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 94,
+    "fields": {
+      "nome": "Paraú"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 95,
+    "fields": {
+      "nome": "Parazinho"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 96,
+    "fields": {
+      "nome": "Parelhas"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 97,
+    "fields": {
+      "nome": "Parnamirim"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 98,
+    "fields": {
+      "nome": "Passa e Fica"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 99,
+    "fields": {
+      "nome": "Passagem"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 100,
+    "fields": {
+      "nome": "Patu"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 101,
+    "fields": {
+      "nome": "Pau dos Ferros"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 102,
+    "fields": {
+      "nome": "Pedra Grande"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 103,
+    "fields": {
+      "nome": "Pedra Preta"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 104,
+    "fields": {
+      "nome": "Pedro Avelino"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 105,
+    "fields": {
+      "nome": "Pedro Velho"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 106,
+    "fields": {
+      "nome": "Pendências"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 107,
+    "fields": {
+      "nome": "Pilões"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 108,
+    "fields": {
+      "nome": "Poço Branco"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 109,
+    "fields": {
+      "nome": "Portalegre"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 110,
+    "fields": {
+      "nome": "Porto do Mangue"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 111,
+    "fields": {
+      "nome": "Pureza"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 112,
+    "fields": {
+      "nome": "Rafael Fernandes"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 113,
+    "fields": {
+      "nome": "Rafael Godeiro"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 114,
+    "fields": {
+      "nome": "Riacho da Cruz"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 115,
+    "fields": {
+      "nome": "Riacho de Santana"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 116,
+    "fields": {
+      "nome": "Riachuelo"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 117,
+    "fields": {
+      "nome": "Rio do Fogo"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 118,
+    "fields": {
+      "nome": "Rodolfo Fernandes"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 119,
+    "fields": {
+      "nome": "Rui Barbosa"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 120,
+    "fields": {
+      "nome": "Santa Cruz"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 121,
+    "fields": {
+      "nome": "Santa Maria"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 122,
+    "fields": {
+      "nome": "Santana do Matos"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 123,
+    "fields": {
+      "nome": "Santana do Seridó"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 124,
+    "fields": {
+      "nome": "Santo Antônio"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 125,
+    "fields": {
+      "nome": "São Bento do Norte"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 126,
+    "fields": {
+      "nome": "São Bento Trairi"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 127,
+    "fields": {
+      "nome": "São Fernando"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 128,
+    "fields": {
+      "nome": "São Francisco do Oeste"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 129,
+    "fields": {
+      "nome": "São Gonçalo do Amarante"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 130,
+    "fields": {
+      "nome": "São J de Campestre"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 131,
+    "fields": {
+      "nome": "São João do Sabugi"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 132,
+    "fields": {
+      "nome": "São José de Mipibu"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 133,
+    "fields": {
+      "nome": "São José do Seridó"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 134,
+    "fields": {
+      "nome": "São Miguel"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 135,
+    "fields": {
+      "nome": "São Miguel de Touros"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 136,
+    "fields": {
+      "nome": "São Paulo do Potengi"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 137,
+    "fields": {
+      "nome": "São Pedro"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 138,
+    "fields": {
+      "nome": "São Rafael"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 139,
+    "fields": {
+      "nome": "São Tomé"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 140,
+    "fields": {
+      "nome": "São Vicente"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 141,
+    "fields": {
+      "nome": "Sen Eloi de Souza"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 142,
+    "fields": {
+      "nome": "Sen Georgino Avelino"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 143,
+    "fields": {
+      "nome": "Serra Caiada"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 144,
+    "fields": {
+      "nome": "Serra de São Bento"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 145,
+    "fields": {
+      "nome": "Serra do Mel"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 146,
+    "fields": {
+      "nome": "Serra Negra do Norte"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 147,
+    "fields": {
+      "nome": "Serrinha"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 148,
+    "fields": {
+      "nome": "Serrinha dos Pintos"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 149,
+    "fields": {
+      "nome": "Severiano Melo"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 150,
+    "fields": {
+      "nome": "Sítio Novo"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 151,
+    "fields": {
+      "nome": "Tabuleiro Grande"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 152,
+    "fields": {
+      "nome": "Taipu"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 153,
+    "fields": {
+      "nome": "Tangara"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 154,
+    "fields": {
+      "nome": "Tenente Laurentino Cruz"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 155,
+    "fields": {
+      "nome": "Tenente Ananias"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 156,
+    "fields": {
+      "nome": "Tibau"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 157,
+    "fields": {
+      "nome": "Tibau do Sul"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 158,
+    "fields": {
+      "nome": "Timbauba dos Batista"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 159,
+    "fields": {
+      "nome": "Touros"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 160,
+    "fields": {
+      "nome": "Triunfo Potiguar"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 161,
+    "fields": {
+      "nome": "Umarizal"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 162,
+    "fields": {
+      "nome": "Upanema"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 163,
+    "fields": {
+      "nome": "Várzea"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 164,
+    "fields": {
+      "nome": "Venha-ver"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 165,
+    "fields": {
+      "nome": "Vera Cruz"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 166,
+    "fields": {
+      "nome": "Viçosa"
+    }
+  },
+  {
+    "model": "seapac.municipality",
+    "pk": 167,
+    "fields": {
+      "nome": "Vila Flor"
+    }
+  },
+  {
+    "model": "seapac.subsystem",
+    "pk": 1,
+    "fields": {
+        "nome_subsistema": "UFPA",
+        "descricao": "Unidade Familiar de Produção Agroecológica",
+        "tipo": "SS",
+        "produtos_base": []
+    }
+  },
+  {
+    "model": "seapac.subsystem",
+    "pk": 2,
+    "fields": {
+      "nome_subsistema": "Caprinocultura",
+      "descricao": "Criação e manejo de caprinos para produção de carne, leite ou couro, adequada a ambientes semiáridos e de baixo custo de manutenção.",
+      "tipo": "SS",
+      "produtos_base": [
+        {
+          "nome": "Carne",
+          "fluxos": []
+        },
+        {
+          "nome": "Esterco",
+          "fluxos": []
+        },
+        {
+          "nome": "Animais para reprodução",
+          "fluxos": []
+        },
+        {
+          "nome": "Couro",
+          "fluxos": []
+        }
+      ]
+    }
+  },
+  {
+    "model": "seapac.subsystem",
+    "pk": 3,
+    "fields": {
+      "nome_subsistema": "Avicultura",
+      "descricao": "Criação de aves, especialmente galinhas, para produção de ovos e carne, com foco em sistemas sustentáveis e integração com a propriedade rural.",
+      "tipo": "SS",
+      "produtos_base": [
+        {
+          "nome": "Pinto",
+          "fluxos": []
+        },
+        {
+          "nome": "Esterco",
+          "fluxos": []
+        },
+        {
+          "nome": "Carne de aves",
+          "fluxos": []
+        },
+        {
+          "nome": "Ovo",
+          "fluxos": []
+        },
+        {
+          "nome": "Aves vivas",
+          "fluxos": []
+        }
+      ]
+    }
+  },
+  {
+    "model": "seapac.subsystem",
+    "pk": 4,
+    "fields": {
+      "nome_subsistema": "Bovinocultura",
+      "descricao": "Criação de bovinos para produção de leite e carne, envolvendo manejo alimentar, sanitário e práticas sustentáveis.",
+      "tipo": "SS",
+      "produtos_base": [
+        {
+          "nome": "Carne",
+          "fluxos": []
+        },
+        {
+          "nome": "Esterco",
+          "fluxos": []
+        },
+        {
+          "nome": "Animais para reprodução",
+          "fluxos": []
+        },
+        {
+          "nome": "Couro",
+          "fluxos": []
+        },
+        {
+          "nome": "Leite",
+          "fluxos": []
+        },
+        {
+          "nome": "Touro",
+          "fluxos": []
+        }
+      ]
+    }
+  },
+  {
+    "model": "seapac.subsystem",
+    "pk": 5,
+    "fields": {
+      "nome_subsistema": "Suinocultura",
+      "descricao": "Criação de suínos destinada à produção de carne, utilizando boas práticas de manejo, nutrição e biossegurança.",
+      "tipo": "SS",
+      "produtos_base": [
+        {
+          "nome": "Carne",
+          "fluxos": []
+        },
+        {
+          "nome": "Esterco",
+          "fluxos": []
+        },
+        {
+          "nome": "Animais para reprodução",
+          "fluxos": []
+        }
+      ]
+    }
+  },
+  {
+    "model": "seapac.subsystem",
+    "pk": 6,
+    "fields": {
+      "nome_subsistema": "Quintal",
+      "descricao": "Espaço multifuncional próximo à residência, onde se cultivam plantas alimentares, medicinais e pequenas criações para autoconsumo.",
+      "tipo": "SS",
+      "produtos_base": [
+        {
+          "nome": "Banana",
+          "fluxos": []
+        },
+        {
+          "nome": "Acerola",
+          "fluxos": []
+        },
+        {
+          "nome": "Pinha",
+          "fluxos": []
+        },
+        {
+          "nome": "Graviola",
+          "fluxos": []
+        },
+        {
+          "nome": "Caju",
+          "fluxos": []
+        },
+        {
+          "nome": "Goiaba",
+          "fluxos": []
+        },
+        {
+          "nome": "Hortaliça",
+          "fluxos": []
+        },
+        {
+          "nome": "Forragem",
+          "fluxos": []
+        }
+      ]
+    }
+  },
+  {
+    "model": "seapac.subsystem",
+    "pk": 7,
+    "fields": {
+      "nome_subsistema": "Apicultura",
+      "descricao": "Criação de abelhas com ferrão para produção de mel, própolis e outros derivados, contribuindo para polinização e biodiversidade.",
+      "tipo": "SS",
+      "produtos_base": [
+        {
+          "nome": "Mel",
+          "fluxos": []
+        },
+        {
+          "nome": "Cera",
+          "fluxos": []
+        },
+        {
+          "nome": "Geleia real",
+          "fluxos": []
+        },
+        {
+          "nome": "Própolis",
+          "fluxos": []
+        },
+        {
+          "nome": "Enxames",
+          "fluxos": []
+        }
+      ]
+    }
+  },
+  {
+    "model": "seapac.subsystem",
+    "pk": 8,
+    "fields": {
+      "nome_subsistema": "Meliponicultura",
+      "descricao": "Criação de abelhas nativas sem ferrão, importante para polinização, preservação ambiental e produção de mel de alto valor agregado.",
+      "tipo": "SS",
+      "produtos_base": [
+        {
+          "nome": "Mel",
+          "fluxos": []
+        },
+        {
+          "nome": "Cera",
+          "fluxos": []
+        },
+        {
+          "nome": "Enxames",
+          "fluxos": []
+        }
+      ]
+    }
+  },
+  {
+    "model": "seapac.subsystem",
+    "pk": 9,
+    "fields": {
+      "nome_subsistema": "Horticultura",
+      "descricao": "Cultivo intensivo de hortaliças, legumes e verdes, usando boas práticas agroecológicas e manejo sustentável do solo.",
+      "tipo": "SS",
+      "produtos_base": [
+        {
+          "nome": "Coentro",
+          "fluxos": []
+        },
+        {
+          "nome": "Cebolinha",
+          "fluxos": []
+        },
+        {
+          "nome": "Pimentão",
+          "fluxos": []
+        },
+        {
+          "nome": "Tomate",
+          "fluxos": []
+        },
+        {
+          "nome": "Tomate cereja",
+          "fluxos": []
+        },
+        {
+          "nome": "Beringela",
+          "fluxos": []
+        },
+        {
+          "nome": "Pimenta de cheiro",
+          "fluxos": []
+        },
+        {
+          "nome": "Repolho",
+          "fluxos": []
+        }
+      ]
+    }
+  },
+  {
+    "model": "seapac.subsystem",
+    "pk": 10,
+    "fields": {
+      "nome_subsistema": "Fruticultura",
+      "descricao": "Cultivo de frutíferas com foco em produção sustentável, manejo de podas, irrigação, pragas e colheita.",
+      "tipo": "SS",
+      "produtos_base": [
+        {
+          "nome": "Banana",
+          "fluxos": []
+        },
+        {
+          "nome": "Mamão",
+          "fluxos": []
+        },
+        {
+          "nome": "Coco",
+          "fluxos": []
+        },
+        {
+          "nome": "Limão",
+          "fluxos": []
+        }
+      ]
+    }
+  },
+  {
+    "model": "seapac.subsystem",
+    "pk": 11,
+    "fields": {
+      "nome_subsistema": "Roçado",
+      "descricao": "Área tradicional de cultivo diversificado, geralmente em sistema de sequeiro, utilizada para produção de alimentos básicos.",
+      "tipo": "SS",
+      "produtos_base": [
+        {
+          "nome": "Milho",
+          "fluxos": []
+        },
+        {
+          "nome": "Feijão",
+          "fluxos": []
+        },
+        {
+          "nome": "Jerimum",
+          "fluxos": []
+        },
+        {
+          "nome": "Melancia",
+          "fluxos": []
+        },
+        {
+          "nome": "Feijão guandu",
+          "fluxos": []
+        },
+        {
+          "nome": "Fava",
+          "fluxos": []
+        },
+        {
+          "nome": "Arroz",
+          "fluxos": []
+        },
+        {
+          "nome": "Amendoim",
+          "fluxos": []
+        }
+      ]
+    }
+  },
+  {
+    "model": "seapac.subsystem",
+    "pk": 12,
+    "fields": {
+      "nome_subsistema": "Forragem",
+      "descricao": "Área destinada à produção de plantas forrageiras utilizadas na alimentação de animais, garantindo suplementação durante períodos secos.",
+      "tipo": "SS",
+      "produtos_base": [
+        {
+          "nome": "Palma",
+          "fluxos": []
+        },
+        {
+          "nome": "Moringa",
+          "fluxos": []
+        },
+        {
+          "nome": "Leucena",
+          "fluxos": []
+        },
+        {
+          "nome": "Gliricídia",
+          "fluxos": []
+        },
+        {
+          "nome": "Margaridão",
+          "fluxos": []
+        },
+        {
+          "nome": "Capiaçu",
+          "fluxos": []
+        }
+      ]
+    }
+  },
+  {
+    "model": "seapac.subsystem",
+    "pk": 13,
+    "fields": {
+      "nome_subsistema": "Plantas medicinais",
+      "descricao": "Cultivo e manejo de espécies vegetais utilizadas para fins terapêuticos, valorizando saberes tradicionais e práticas fitoterápicas.",
+      "tipo": "SS",
+      "produtos_base": [
+        {
+          "nome": "Hortelã",
+          "fluxos": []
+        },
+        {
+          "nome": "Cidreira",
+          "fluxos": []
+        },
+        {
+          "nome": "Capim santo",
+          "fluxos": []
+        },
+        {
+          "nome": "Urucum",
+          "fluxos": []
+        }
+      ]
+    }
+  },
+  {
+    "model": "seapac.subsystem",
+    "pk": 14,
+    "fields": {
+      "nome_subsistema": "Viveiro de mudas",
+      "descricao": "Estrutura destinada à produção de mudas de espécies nativas, frutíferas e ornamentais para reflorestamento, agroecologia ou comercialização.",
+      "tipo": "SS",
+      "produtos_base": [
+        {
+          "nome": "Coco",
+          "fluxos": []
+        },
+        {
+          "nome": "Limão",
+          "fluxos": []
+        },
+        {
+          "nome": "Banana",
+          "fluxos": []
+        }
+      ]
+    }
+  },
+  {
+    "model": "seapac.subsystem",
+    "pk": 15,
+    "fields": {
+      "nome_subsistema": "Banco de sementes",
+      "descricao": "Espaço para conservação, troca e reprodução de sementes crioulas, preservando a biodiversidade agrícola e a autonomia dos agricultores.",
+      "tipo": "SS",
+      "produtos_base": [
+        {
+          "nome": "Feijão",
+          "fluxos": []
+        },
+        {
+          "nome": "Milho",
+          "fluxos": []
+        },
+        {
+          "nome": "Fava",
+          "fluxos": []
+        }
+      ]
+    }
+  },
+  {
+    "model": "seapac.subsystem",
+    "pk": 16,
+    "fields": {
+      "nome_subsistema": "Piscicultura",
+      "descricao": "Criação de peixes em tanques, açudes ou viveiros, voltada para produção de proteína animal e geração de renda.",
+      "tipo": "SS",
+      "produtos_base": [
+        {
+          "nome": "Tilápia",
+          "fluxos": []
+        },
+        {
+          "nome": "Tambaqui",
+          "fluxos": []
+        }
+      ]
+    }
+  },
+  {
+    "model": "seapac.subsystem",
+    "pk": 17,
+    "fields": {
+      "nome_subsistema": "Carcinicultura",
+      "descricao": "Criação de camarões em viveiros escavados ou tanques, com manejo especializado de água, alimentação e qualidade ambiental.",
+      "tipo": "SS",
+      "produtos_base": [
+        {
+          "nome": "Camarão",
+          "fluxos": []
+        }
+      ]
+    }
+  },
+  {
+    "model": "seapac.subsystem",
+    "pk": 18,
+    "fields": {
+      "nome_subsistema": "Floricultura",
+      "descricao": "Produção de flores e plantas ornamentais para fins comerciais, estéticos ou paisagísticos.",
+      "tipo": "SS",
+      "produtos_base": [
+        {
+          "nome": "Tulipa",
+          "fluxos": []
+        }
+      ]
+    }
+  },
+  {
+    "model": "seapac.subsystem",
+    "pk": 19,
+    "fields": {
+      "nome_subsistema": "Compostagem",
+      "descricao": "Processo de transformação de resíduos orgânicos em adubo natural, utilizado para melhorar a fertilidade do solo.",
+      "tipo": "SS",
+      "produtos_base": [
+        {
+          "nome": "Composto orgânico",
+          "fluxos": []
+        },
+        {
+          "nome": "Biofertilizante",
+          "fluxos": []
+        },
+        {
+          "nome": "EM4",
+          "fluxos": []
+        }
+      ]
+    }
+  },
+  {
+    "model": "seapac.subsystem",
+    "pk": 20,
+    "fields": {
+      "nome_subsistema": "Artesanato",
+      "descricao": "Produção manual de peças decorativas ou utilitárias, utilizando materiais locais e saberes culturais tradicionais.",
+      "tipo": "SS",
+      "produtos_base": [
+        {
+          "nome": "Doces",
+          "fluxos": []
+        },
+        {
+          "nome": "Bolos",
+          "fluxos": []
+        },
+        {
+          "nome": "Queijos",
+          "fluxos": []
+        }
+      ]
+    }
+  },
+  {
+    "model": "seapac.subsystem",
+    "pk": 21,
+    "fields": {
+      "nome_subsistema": "Cisterna P1MC",
+      "descricao": "Tecnologia social de captação de água de chuva para consumo humano, com capacidade de 16 mil litros.",
+      "tipo": "TS",
+      "produtos_base": [
+        {
+          "nome": "Água para beber e cozinhar",
+          "fluxos": []
+        }
+      ]
+    }
+  },
+  {
+    "model": "seapac.subsystem",
+    "pk": 22,
+    "fields": {
+      "nome_subsistema": "Cisterna P1+2",
+      "descricao": "Cisterna destinada à produção agrícola, com maior capacidade de armazenamento, usada para irrigação e criação de animais.",
+      "tipo": "TS",
+      "produtos_base": [
+        {
+          "nome": "Água para produção",
+          "fluxos": []
+        },
+        {
+          "nome": "Água para o multiuso da UPF",
+          "fluxos": []
+        },
+        {
+          "nome": "Água para os animais",
+          "fluxos": []
+        }
+      ]
+    }
+  },
+  {
+    "model": "seapac.subsystem",
+    "pk": 23,
+    "fields": {
+      "nome_subsistema": "Barreiro Trincheira",
+      "descricao": "Estrutura escavada no solo para armazenar água de chuva, utilizada na dessedentação de animais ou irrigação.",
+      "tipo": "TS",
+      "produtos_base": [
+        {
+          "nome": "Água para produção",
+          "fluxos": []
+        },
+        {
+          "nome": "Água para os animais",
+          "fluxos": []
+        }
+      ]
+    }
+  },
+  {
+    "model": "seapac.subsystem",
+    "pk": 24,
+    "fields": {
+      "nome_subsistema": "Barragem",
+      "descricao": "Construção hidrológica destinada a reter água, aumentando a disponibilidade hídrica para produção ou consumo.",
+      "tipo": "TS",
+      "produtos_base": [
+        {
+          "nome": "Água para produção",
+          "fluxos": []
+        },
+        {
+          "nome": "Água para os animais",
+          "fluxos": []
+        }
+      ]
+    }
+  },
+  {
+    "model": "seapac.subsystem",
+    "pk": 25,
+    "fields": {
+      "nome_subsistema": "Reuso de Água Cinza",
+      "descricao": "Sistema que trata e reutiliza águas provenientes de pias, chuveiros e lavanderias para irrigação de plantas.",
+      "tipo": "TS",
+      "produtos_base": [
+        {
+          "nome": "Água para produção",
+          "fluxos": []
+        }
+      ]
+    }
+  },
+  {
+    "model": "seapac.subsystem",
+    "pk": 26,
+    "fields": {
+      "nome_subsistema": "Reuso de Água Total",
+      "descricao": "Tecnologia que permite reuso completo das águas residenciais, incluindo água negra, após tratamento adequado.",
+      "tipo": "TS",
+      "produtos_base": [
+        {
+          "nome": "Água para produção",
+          "fluxos": []
+        }
+      ]
+    }
+  },
+  {
+    "model": "seapac.subsystem",
+    "pk": 27,
+    "fields": {
+      "nome_subsistema": "Biodigestor",
+      "descricao": "Equipamento que transforma resíduos orgânicos em biogás e biofertilizante, promovendo energia renovável e adubação natural.",
+      "tipo": "TS",
+      "produtos_base": [
+        {
+          "nome": "Biogás",
+          "fluxos": []
+        },
+        {
+          "nome": "Biofertilizante",
+          "fluxos": []
+        }
+      ]
+    }
+  },
+  {
+    "model": "seapac.subsystem",
+    "pk": 28,
+    "fields": {
+      "nome_subsistema": "Secador Solar",
+      "descricao": "Estrutura que utiliza energia solar para desidratar alimentos, aumentando sua conservação e valor comercial.",
+      "tipo": "TS",
+      "produtos_base": [
+        {
+          "nome": "Feno",
+          "fluxos": []
+        },
+        {
+          "nome": "Semente",
+          "fluxos": []
+        },
+        {
+          "nome": "Fruta desidratada",
+          "fluxos": []
+        }
+      ]
+    }
+  },
+  {
+    "model": "seapac.subsystem",
+    "pk": 29,
+    "fields": {
+      "nome_subsistema": "Mercado Local",
+      "descricao": "Espaço onde agricultores comercializam diretamente sua produção, fortalecendo a economia local e valorizando produtos da agricultura familiar.",
+      "tipo": "ME",
+      "produtos_base": []
+    }
+  },
+  {
+    "model": "seapac.subsystem",
+    "pk": 30,
+    "fields": {
+      "nome_subsistema": "Feira Agroecológica",
+      "descricao": "Ambiente de comercialização de produtos orgânicos ou agroecológicos diretamente pelo agricultor, promovendo renda e alimentação saudável.",
+      "tipo": "ME",
+      "produtos_base": []
+    }
+  },
+  {
+    "model": "seapac.subsystem",
+    "pk": 31,
+    "fields": {
+      "nome_subsistema": "PNAE",
+      "descricao": "Subsistema relacionado ao fornecimento de alimentos da agricultura familiar para o Programa Nacional de Alimentação Escolar.",
+      "tipo": "ME",
+      "produtos_base": []
+    }
+  },
+  {
+    "model": "seapac.subsystem",
+    "pk": 32,
+    "fields": {
+      "nome_subsistema": "Farmácia",
+      "descricao": "Espaço de preparo e distribuição de remédios naturais, produtos fitoterápicos ou itens de saúde comunitária.",
+      "tipo": "ME",
+      "produtos_base": []
+    }
+  },
+  {
+    "model": "seapac.subsystem",
+    "pk": 33,
+    "fields": {
+      "nome_subsistema": "Atravessador",
+      "descricao": "Agente intermediário que compra produtos dos agricultores e revende, influenciando preços e dinâmica de mercado.",
+      "tipo": "ME",
+      "produtos_base": []
+    }
+  },
+  {
+    "model": "seapac.project",
+    "pk": 1,
+    "fields": {
+      "nome_projeto": "Projeto de Informatização de Monitoramento de Transição Agroecológica SEAPAC",
+      "descricao": "Com apoio de alunos do IFRN Pau dos Ferros e UFERSA Mossoró, a SEAPAC visa informatizar os processos de gestão e monitoramento de transição agroecológica de famílias agricultoras do alto oeste potiguar.",
+      "orcamento": "4.300",
+      "data_inicio": "2025-06-09",
+      "data_fim": "2025-12-19",
+      "status": "em-execucao"
+    }
+  }
+]

@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+
+
+{% block center %}
+<h1 class='title'>Lista de Técnicos cadastrados no sistema</h1>
+
+<div class="controls-section">
+
+    <div class="control-group">
+        <i class="fas fa-filter"></i>
+        <label for="projectStatusFilter">Especialidade</label>
+        <form method="GET" class="filter-form">
+            <select id="projectStatusFilter" class="control-select" name="especialidade" onchange="this.form.submit()">
+                <option value="">Todas as especialidades</option>
+                <option value="agropecuária" {% if especialidade == 'agropecuária' %}selected{% endif %}>Agropecuária</option>
+                <option value="veterinário" {% if especialidade == 'veterinário' %}selected{% endif %}>Veterinário</option>
+                <option value="agronomia" {% if especialidade == 'agronomia' %}selected{% endif %}>Agronomia</option>
+            </select>
+        </form>
+    </div>
+
+    <div class="search-group">
+        <i class="fas fa-search"></i>
+        <form action="" method="GET" class="search-form">
+            <input type="search" id="searchInput" name="q" value="{{ query|default:'' }}" placeholder="Buscar por nome..." class="search-input">
+        </form>
+    </div>
+
+    {% if user.is_administrador %}
+        <a href="{% url 'create_tecs' %}" class="btn btn-primary" id="addProjectBtn">
+            <i class="fas fa-plus"></i> Cadastrar Técnicos
+        </a>
+    {% endif %}
+</div>
+
+<div class="container-fluid px-md-3 px-0">
+    {% if tecs %}
+        <div class="row g-4">
+            {% for tec in tecs %}
+                {% include "partials/cards/technician_card.html" %}
+            {% endfor %}
+        </div>
+        <br>
+        {% include "partials/pagination.html" %}
+    {% else %}
+        <div class="no-families">
+            <i class="fas fa-search"></i>
+            <h3>Nenhum técnico encontrado</h3>
+            <p>Tente ajustar os filtros de pesquisa.</p>
+        </div>
+    {% endif %}
+</div>
+
+{% endblock %}

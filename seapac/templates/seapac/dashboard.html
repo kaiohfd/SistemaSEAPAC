@@ -1,0 +1,107 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block center %}
+<div class="page active" id="dashboard">
+    <div class="page-header">
+        <h1 class="page-title">{% block title %}{{ title }}{% endblock title %}</h1>
+    </div>
+
+    <div class="stats-grid">
+        <div class="stat-card">
+            <div class="stat-icon families">
+                <i class="fas fa-users"></i>
+            </div>
+            <div class="stat-content">
+                <div class="stat-label">Total de Famílias</div>
+                <div class="stat-value">{{ total_families }}</div>
+            </div>
+        </div>
+
+        <div class="stat-card">
+            <div class="stat-icon municipalities">
+                <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="stat-content">
+                <div class="stat-label">Total de Municípios</div>
+                <div class="stat-value">{{ total_municipios }}</div>
+            </div>
+        </div>
+
+        <div class="stat-card">
+            <div class="stat-icon advanced">
+                <i class="fas fa-chart-line"></i>
+            </div>
+            <div class="stat-content">
+                <div class="stat-label">Total de Níveis Avançados</div>
+                <div class="stat-value">{{ total_avancado }}</div>
+            </div>
+        </div>
+        
+        <div class="stat-card">
+            <div class="stat-icon intermediary">
+                <i class="fas fa-chart-line"></i>
+            </div>
+            <div class="stat-content">
+                <div class="stat-label">Total de Níveis Intermediário</div>
+                <div class="stat-value">{{ total_intermediario }}</div>
+            </div>
+        </div>
+
+        <div class="stat-card">
+            <div class="stat-icon basic">
+                <i class="fas fa-chart-line"></i>
+            </div>
+            <div class="stat-content">
+                <div class="stat-label">Total de Níveis Inicial</div>
+                <div class="stat-value">{{ total_inicial }}</div>
+            </div>
+        </div>
+
+        <div class="stat-card">
+            <div class="stat-icon technical">
+                <i class="fa-solid fa-user-tag"></i>
+            </div>
+            <div class="stat-content">
+                <div class="stat-label">Total de Técnicos</div>
+                <div class="stat-value">{{ total_tecnicos }}</div>
+            </div>
+        </div>
+
+        <div class="stat-card">
+            <div class="stat-icon visits">
+                <i class="fa-solid fa-calendar"></i>
+            </div>
+            <div class="stat-content">
+                <div class="stat-label">Visitas Marcadas</div>
+                <div class="stat-value">{{ total_visitas }}</div>
+            </div>
+        </div>
+    </div>
+    <div class="controls-section">
+        {% include "partials/search.html" %}
+    </div>
+    <div class="families-section">
+        <div class="section-header">
+            <h2>Famílias Cadastradas</h2>
+            <button class="btn btn-primary" onclick="redirect('{% url 'register' %}')">
+                <i class="fas fa-plus"></i>
+                Adicionar
+            </button>
+        </div>
+
+        <div class="families-grid">
+            {% if families %}
+                {% for family in families %}
+                    {% include "partials/cards/family_card.html" %}
+                {% endfor %}
+            {% else %}
+                <div class="no-families">
+                    <i class="fas fa-search"></i>
+                    <h3>Nenhuma família encontrada</h3>
+                    <p>Tente ajustar os filtros de pesquisa.</p>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endblock %}

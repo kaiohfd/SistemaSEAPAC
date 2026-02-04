@@ -1,0 +1,42 @@
+{% load static %}
+<aside class="sidebar" id="sidebar">
+    <div class="sidebar-content">
+        <nav class="nav-menu">
+            <a href="{% url 'dashboard' %}" class="nav-item {% if request.resolver_match.url_name == 'dashboard' %}active{% endif %}" data-page="dashboard">
+                <i class="fas fa-home"></i>
+                <span>Página Inicial</span>
+            </a>
+            <a href="{% url 'register' %}" class="nav-item {% if request.resolver_match.url_name == 'register' %}active{% endif %}" data-page="cadastrar">
+                <i class="fas fa-user-plus"></i>
+                <span>Cadastrar Família</span>
+            </a>
+            <a href="{% url 'list_families' %}" class="nav-item {% if request.resolver_match.url_name == 'list_families' %}active{% endif %}" data-page="familias">
+                <i class="fas fa-users"></i>
+                <span>Lista de Famílias</span>
+            </a>
+            <a href="{% url 'list_subsystems' %}" class="nav-item {% if request.resolver_match.url_name == 'list_subsystems' %}active{% endif %}" data-page="subsitemas">
+                <i class="fa-solid fa-layer-group"></i>
+                <span>Subsistemas</span>
+            </a>
+            <a href="{% url 'list_projects' %}"  class="nav-item {% if request.resolver_match.url_name == 'list_projects' %}active{% endif %}" data-page="projetos">
+                <i class="fas fa-project-diagram"></i>
+                <span>Projetos</span>
+            </a>
+            <a href="{% url 'list_tecs' %}" class="nav-item {% if request.resolver_match.url_name == 'list_tecs' %}active{% endif %}" data-page="tecnicos">
+                <i class="fas fa-user-tie"></i>
+                <span>Técnicos</span>
+            </a>
+            <a href="{% url 'calendar' %}" class="nav-item {% if request.resolver_match.url_name == 'calendar' %}active{% endif %}" data-page="calendario">
+                <i class="fas fa-calendar-alt"></i>
+                <span>Calendário de Visitas</span>
+            </a>
+        </nav>
+        
+        <div class="sidebar-footer">
+            <div class="seapac-logo">
+                <a target="_blank" href="https://seapac.org.br"><img src="{% static 'img/logo-seapac.png' %}" alt="SEAPAC Logo" height="40" width="40"></a>
+                <a target="_blank" href="https://portal.ifrn.edu.br/campus/paudosferros"><img src="{% static 'img/logo-ifrn.png' %}" alt="IFRN Logo" height="35" width="25"></a>
+            </div>
+        </div>
+    </div>
+</aside>

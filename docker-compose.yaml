@@ -1,0 +1,51 @@
+version: '3.8'
+
+services:
+
+  postgres:
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: default
+      POSTGRES_PASSWORD: pgadmin
+      POSTGRES_DB: default
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql
+
+  django:
+    build:
+      context: .
+      dockerfile: ./compose/django/Dockerfile
+    container_name: seapac
+    command: ./start
+    volumes:
+      - media_data:/app/media
+      - static_data:/app/static
+    ports:
+      - "8000:8000"
+    environment:
+      - POSTGRES_DB=default
+      - POSTGRES_USER=default
+      - POSTGRES_PASSWORD=pgadmin
+      - POSTGRES_HOST=postgres
+      - POSTGRES_PORT=5432
+    depends_on:
+      - postgres
+    restart: always
+
+  nginx:
+    build:
+      context: .
+      dockerfile: ./compose/nginx/Dockerfile
+    volumes:
+      - media_data:/app/media
+      - static_data:/app/static
+    ports:
+      - 82:80
+    restart: unless-stopped
+  
+volumes:
+  pgdata:
+  media_data:
+  static_data:

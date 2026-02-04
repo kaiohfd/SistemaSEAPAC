@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    {% include "partials/head.html" %}
+    <title>{% block title %}{% endblock title %} | Sistema SEAPAC</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+</head>
+<body>
+    {% include "partials/header.html" %}
+    {% include "partials/sidebar.html" %}
+    <button class="mobile-menu-toggle" id="mobileMenuToggle">
+        <i class="fas fa-bars"></i>
+    </button>
+    <main class="main-content">
+        {% block center %}
+
+        {% endblock center %}
+    </main>
+    {% block extra_js %}
+    <script>
+        const toggleButton = document.getElementById('mobileMenuToggle');
+        const sidebar = document.getElementById('sidebar');
+
+        if (toggleButton && sidebar) {
+        toggleButton.addEventListener('click', function(e) {
+            e.stopPropagation();
+            sidebar.classList.toggle('open');
+        });
+
+        document.addEventListener('click', function(e) {
+            if (
+            sidebar.classList.contains('open') &&
+            !sidebar.contains(e.target) &&
+            !toggleButton.contains(e.target)
+            ) {
+            sidebar.classList.remove('open');
+            }
+        });
+        }
+    </script>
+    {% endblock %}
+</body>
+</html>
