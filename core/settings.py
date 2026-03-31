@@ -33,6 +33,9 @@ CSRF_TRUSTED_ORIGINS = [
     "http://127.0.0.1:82",
 ]
 
+
+#SECURE_SSL_REDIRECT = True
+
 # Application definition
 
 INSTALLED_APPS = [
